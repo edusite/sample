@@ -1,0 +1,100 @@
+.navbar{
+	height: 10vh;
+	background: coral;
+}
+.sect{
+	margin: 10%;
+	height: auto;
+}
+.personal-info{
+	height: 30vh;
+/*	background: skyblue;*/
+	display: flex;
+}
+.mypic{
+	/*clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+	width: 200px;
+	height: 200px;*/
+}
+.mypic img{
+	filter: drop-shadow(8px 8px 10px silver);
+}
+.services{
+/*	background: maroon;*/
+}
+.contact{
+	background: pink;
+}
+.myfooter{
+	background: lightseagreen;
+}
+.myself{
+	text-align: center;
+}
+.myself h1{
+	color:coral;
+	font-size: 3em;
+
+	  font-family: "Spirax", system-ui;
+	  font-weight: 400;
+	  font-style: normal;
+}
+#info{
+	 font-family: "Spirax", system-ui;
+	 font-size: 1.5em;
+}
+.projects{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.bst_prj{
+	flex:0 calc(90%/3);
+	border: 1px solid blue;
+	box-shadow: 2px 3px 10px purple;
+}
+
+.bst_prj img{
+	width: 30vw;
+	height: 20vh;
+}
+.bst_prj:hover{
+	transform: scale(1.2);
+	transition: all 2s;
+}
+
+.row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3%;
+}
+.services_item{
+	flex:0 30%;
+	border: 1px solid maroon;
+	height: 30vh;
+	background: linear-gradient(34deg,lightseagreen,lightsalmon);
+	text-align: center;
+	padding:3% 0;
+	position: relative;
+	color: red;
+	font-size: 2em;
+}
+
+.serbtn{
+	width: 100%;
+	height: 5vh;
+	background: coral;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.serbtn:hover{
+	background: linear-gradient(34deg,lightsalmon,lightseagreen);
+}
+.svTitle{
+	text-align: center;
+	text-shadow: 2px 3px 4px grey;
+	font-size: 2em;
+}
